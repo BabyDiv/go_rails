@@ -1,2 +1,13 @@
 # go_rails
-Idk what to write down here 
+
+λ irb
+irb(main):002:0> puts("2 + 2 = 4")
+2 + 2 = 4
+=> nil
+irb(main):003:0> puts("2 + 2 = #{2 + 2}")
+2 + 2 = 4
+=> nil
+irb(main):004:0> "2 + 2 = #{2 + 2}"
+=> "2 + 2 = 4"
+irb(main):005:0> '2 + 2 = #{2 + 2}'
+=> "2 + 2 = \#{2 + 2}"
