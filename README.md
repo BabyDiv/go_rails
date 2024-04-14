@@ -1,7 +1,6 @@
 # go_rails
 
 ruby - interpreter (tests programs)
-
 irb - repl (a program that tests functions)
 
 puts - выводмт в терминал
