@@ -79,3 +79,41 @@ pets["dog"]["name"]
 pets.dig("dog", "name")
 
 => "Spot"
+
+MASSIVES
+
+characters = [{"name" => "The Little Mermaid", "age" => 18, "marital status" => "single"},{"name" => "Snow White", "age" => 16, "marital status" => "single"}]
+
+=> [{"name"=>"The Little Mermaid", "age"=>18, "marital status"=>"single"}, {"name"=>"Snow White", "age"=>16, "marital status"=>"single"}]
+
+characters[0]["age"]
+
+=> 18
+
+characters[0]["age"]+characters[1]["age"]
+
+=> 34
+
+print
+
+gets = берет значение из print
+
+print("What's your name?")
+
+name = gets().chomp()
+
+puts=("that is cool, #{name}")
+
+Условные операторы
+
+salary = 10000
+
+if salary < 10000
+
+  puts("I'll find another job")
+  
+else
+
+  puts("May be I will try")
+  
+end
