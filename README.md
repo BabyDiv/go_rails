@@ -36,3 +36,46 @@ hashes
 
 HASHES
 
+songs = {"jackson" => "Dangerous", "osbourne" => "I just want you", "syrus" => "flowers"}
+
+=> {"jackson"=>"Dangerous", "osbourne"=>"I just want you", "syrus"=>"flowers"}
+
+songs
+
+=> {"jackson"=>"Dangerous", "osbourne"=>"I just want you", "syrus"=>"flowers"}
+
+songs["jackson"] = key
+
+=> "Dangerous"
+
+songs.size
+
+=> 3
+
+songs = {"jackson" => ["Dangerous", "Liberian girl", "Whatever happens"], "osbourne" => "I just want you", "syrus" => "flowers"}
+
+=> {"jackson"=>["Dangerous", "Liberian girl", "Whatever happens"], "osbourne"=>"I just want you", "syrus"=>"flowers"}
+
+songs["jackson"]
+
+=> ["Dangerous", "Liberian girl", "Whatever happens"]
+
+songs["jackson"].join(", ")
+
+=> "Dangerous, Liberian girl, Whatever happens"
+
+pets = { "dog" => {"name" => "Spot"}, "cat" => {"name" => "Yarn"} }
+
+=> {"dog"=>{"name"=>"Spot"}, "cat"=>{"name"=>"Yarn"}}
+
+pets["dog"]
+
+=> {"name"=>"Spot"}
+
+pets["dog"]["name"]
+
+=> "Spot"
+
+pets.dig("dog", "name")
+
+=> "Spot"
