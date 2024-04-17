@@ -1,5 +1,7 @@
 # go_rails
 
+## Section 1
+
 ruby - interpreter (tests programs)
 
 irb - repl (a program that tests functions)
@@ -11,6 +13,8 @@ puts("Hello, \"World\" ") - нужно экранировать
 puts("Hello, 'World' ") - не нужно экранировать
 
 irb - exit - clear
+
+```
 
 puts("2 + 2 = 4")
 
@@ -26,7 +30,7 @@ puts("2 + 2 = #{2 + 2}")
 
 "2 + 2 = #{2 + 2}"
 
-hashes
+```
 
 => "2 + 2 = 4"
 
@@ -34,7 +38,9 @@ hashes
 
 => "2 + 2 = \#{2 + 2}"
 
-HASHES
+## Hashes
+
+```
 
 songs = {"jackson" => "Dangerous", "osbourne" => "I just want you", "syrus" => "flowers"}
 
@@ -80,7 +86,11 @@ pets.dig("dog", "name")
 
 => "Spot"
 
-MASSIVES
+```
+
+## Arrays
+
+```
 
 characters = [{"name" => "The Little Mermaid", "age" => 18, "marital status" => "single"},{"name" => "Snow White", "age" => 16, "marital status" => "single"}]
 
@@ -104,7 +114,7 @@ name = gets().chomp()
 
 puts=("that is cool, #{name}")
 
-Условные операторы
+## If else
 
 salary = 10000
 
@@ -118,7 +128,11 @@ else
   
 end
 
-CONDITIONALS
+```
+
+## Conditionals
+
+```
 
 puts("
 
@@ -149,6 +163,7 @@ elsif response == "2"
   puts("Подключить услугу")
 
 elsif response == "3"
+
   puts("Вопросы о счетах и оплате")
 
 elsif response == "0"
@@ -160,4 +175,6 @@ else
   puts("Неправильный вариант ответа. Попробуйте еще раз")
 
 end
+
+```
 
