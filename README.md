@@ -1,4 +1,4 @@
-# go_rails
+# go rails
 
 ## Section 1
 
