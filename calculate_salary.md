@@ -18,3 +18,12 @@ end
 
 calculate_salary()
 ```
+
+## Usage example
+
+```
+I know that you are bad at Maths, but let's try to count your monthly salary
+Enter your daily payment: 700
+When your daily payment is 700, your monthly salary is 14000
+When your daily payment is 700, you get 29 per hour, tramp
+```
