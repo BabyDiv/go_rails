@@ -178,3 +178,19 @@ end
 
 ```
 
+## Loops and blocks
+
+Операторы цикла
+
+```
+
+index = 0 - переменная
+
+while index < 10 - оператор цикла
+
+puts(index)
+
+index = index + 1 - тело цикла
+
+end
+```
