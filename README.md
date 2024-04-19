@@ -195,7 +195,7 @@ index = index + 1 - тело цикла
 end
 ```
 
-##Arrays and conditionals
+## Arrays and conditionals
 
 ```
 train = [3, 4, 5, 23, 5, 6, 3, 7, 5]
