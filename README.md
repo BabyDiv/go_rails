@@ -194,3 +194,28 @@ index = index + 1 - тело цикла
 
 end
 ```
+
+##Arrays and conditionals
+
+```
+train = [3, 4, 5, 23, 5, 6, 3, 7, 5]
+
+x = 0
+
+while (x < 5)
+  puts(train[x])
+  x = x + 1
+end
+```
+```
+train = [-345,2,3,4,52,5,34,534,5,345,34,53,45,345,345,34,534,5,345,345,435]   
+
+index = 0 # .size() - 1;
+
+# 0,1,2,3,4...train.size() - 1
+
+while (index < train.size())
+  puts(train[index])
+  index = index + 1
+end
+```
