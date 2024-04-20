@@ -9,3 +9,41 @@ while (index < size)
   index = index + 1
 end
 ```
+
+```
+a = []
+
+print("Enter n: ")
+n = gets().chomp().to_i()
+i = 0
+
+while (i < n)
+  print("> ")
+  a[i] = gets().chomp().to_i()
+  i = i + 1
+end
+
+puts()
+
+puts("your array is: #{a}")
+
+# Find sum of all numbers
+
+i = 0
+sum = 0
+
+while (i < n)
+  sum = sum + a[i]
+  i = i + 1
+  # puts("Iteration number is #{i}, sum is #{sum}")
+end
+
+min = a.min()
+max = a.max()
+average = sum / n
+
+puts("Sum of all numbers is #{sum}")
+puts("The smallest number in the array is #{min}")
+puts("The biggest number in the array is #{max}")
+puts("The average number in the array is #{average}")
+```
