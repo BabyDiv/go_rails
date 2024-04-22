@@ -47,3 +47,25 @@ puts("The smallest number in the array is #{min}")
 puts("The biggest number in the array is #{max}")
 puts("The average number in the array is #{average}")
 ```
+
+```
+a = []
+print("Number of values in the array: ")
+n = gets().chomp.to_i()
+i = 0
+
+while (i < n)
+  print("> ")
+  a[i] = gets().chomp().to_i()
+  i = i + 1
+end
+puts()
+i = 0
+while (i < n)
+  if (a[i] >= 0)
+    puts(a[i])
+  end
+  i = i + 1
+end
+
+```
