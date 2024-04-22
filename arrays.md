@@ -69,3 +69,58 @@ while (i < n)
 end
 
 ```
+
+```
+
+a = []
+
+print('n: ')
+n = gets().chomp().to_i()
+
+i = 0
+while (i < n)
+  print("")
+  a.push( gets().chomp().to_i() )              <---------
+
+  i = i + 1
+end
+
+puts()
+
+i = 0
+while (i < a.size())
+  if (a[i] >= 0)
+    puts(a[i])
+  end
+
+  i = i + 1
+end
+```
+```
+
+a = []
+
+print('n: ')
+n = gets().chomp().to_i()
+
+i = 0
+while (i < n)
+  print("")
+  buffer = gets().chomp().to_i()
+
+  a.push(buffer)
+
+  i = i + 1
+end
+
+puts()
+
+i = 0
+while (i < a.size())
+  if (a[i] >= 0)
+    puts(a[i])
+  end
+
+  i = i + 1
+end
+```
