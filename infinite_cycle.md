@@ -1,3 +1,5 @@
+## Infinite cycle is primarily used in games, applications and on different platforms
+
 ```
 puts("The program has been started")
 puts()
