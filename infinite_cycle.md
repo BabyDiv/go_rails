@@ -15,3 +15,15 @@ end
 puts()
 puts("The program has been finished")
 ```
+```
+puts("The program has been started")
+puts()
+
+begin
+  print("Enter your message: ")
+  message = gets().chomp()
+end while (message.size() > 0)
+
+puts()
+puts("The program has been finished")
+```
